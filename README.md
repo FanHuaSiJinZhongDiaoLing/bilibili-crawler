@@ -1,6 +1,10 @@
 # 📦 bilibili-crawler
 
-> **版本：v1.2.0** ｜ 作者：陆炳阳（Vincent Cassano）  
+> **版本：v1.2.0** ｜ 原作者：陆炳阳（Vincent Cassano）  
+
+本分支多了个读取csv，批量下载的函数，独立于主程序之外
+
+但需要手动填入cookies
 
 ---
 
@@ -30,4 +34,5 @@ pip install -r requirements.txt
 python bilibili-crawler.py
 #国内下载
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 ```
