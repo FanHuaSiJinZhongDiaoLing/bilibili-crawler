@@ -6,10 +6,10 @@
 但需要手动填入cookies
 
 具体使用方法：
-1.找到你想要爬取视频的up主b站id
-2.调用bilibili-crawler v1.2.0.py (基本没改动)
-3.调用batch_download_by_BV.py读取上一步爬出来的csv
-4.在vedio中享受你的视频吧~
+- 1.找到你想要爬取视频的up主b站id
+- 2.调用bilibili-crawler v1.2.0.py (基本没改动)
+- 3.调用batch_download_by_BV.py读取上一步爬出来的csv
+- 4.在vedio中享受你的视频吧~
 ---
 
 ## 🧩 项目简介
@@ -40,4 +40,5 @@ python bilibili-crawler.py
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ```
+
 
